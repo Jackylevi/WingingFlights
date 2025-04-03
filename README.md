@@ -1,3 +1,6 @@
+# WingingFlights
+Python script I used to get automated emails of any cheap roundtrip flights from NYC to Europe - can be modified to fit different airports and hosted on a webserver 
+
 # NYC to Europe Flight Deal Finder
 
 This Python script hunts for cheap roundtrip flights from NYC (JFK, LGA, EWR) to major European cities, keeping it under $350 for trips between 14-28 days. It uses SerpApi’s Google Flights API and emails you the results with booking links. Perfect for snagging deals on a budget!
@@ -34,7 +37,7 @@ Here’s how to get this thing flying locally:
 pip install requests 
 ```
 
-#### Need Help? Ask Your Favorite LLM
+#### Need Help? Ask Your Favorite LLM (dumbass)
 Stuck on installing `requests`? I got help from Grok (built by xAI) to troubleshoot this. Just ask something like, "How do I install requests for Python?" Your fave LLM (Grok, ChatGPT, whatever) can walk you through it!
 
 3. **Edit the Script**:
