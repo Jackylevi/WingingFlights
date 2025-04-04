@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WingingFlights - Europe Deals</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Cheap Flights to Europe!</h1>
+        <p>Get daily email alerts for roundtrip flights from NYC to Europe matching your criteria.</p>
+
+        <form id="flight-form">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="max_price">Max Price ($):</label>
+            <input type="number" id="max_price" name="max_price" value="350" required>
+
+            <label for="min_days">Min Trip Days:</label>
+            <input type="number" id="min_days" name="min_days" value="14" min="1" required>
+
+            <label for="max_days">Max Trip Days:</label>
+            <input type="number" id="max_days" name="max_days" value="28" min="1" required>
+
+            <label for="origin_airport">Departure Airport (NYC):</label>
+            <select id="origin_airport" name="origin_airport" required>
+                <option value="JFK">JFK (Kennedy)</option>
+                <option value="EWR">EWR (Newark)</option>
+                <option value="LGA">LGA (LaGuardia)</option>
+                <option value="NYC">Any NYC Airport</option>
+            </select>
+
+            <input type="hidden" id="destinations" name="destinations" value="EUROPE">
+
+            <button type="submit">Subscribe to Deals</button>
+        </form>
+
+        <div id="response-message"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

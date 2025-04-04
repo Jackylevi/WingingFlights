@@ -1,0 +1,5 @@
+Flask>=2.0
+requests>=2.25
+# Add database drivers if needed, e.g.:
+# SQLAlchemy>=1.4
+# psycopg2-binary  # For PostgreSQL

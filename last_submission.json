@@ -1,0 +1,8 @@
+{
+    "email": "jacklevi98@gmail.com",
+    "max_price": 500,
+    "min_days": 16,
+    "max_days": 24,
+    "origin_airport": "JFK",
+    "destinations": "EUROPE"
+}
